@@ -1,0 +1,64 @@
+
+/* monitors and laptops */
+
+
+
+@media screen and (min-width: 320px) and (max-width: 1200px){
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 991px){
+
+
+}
+/* Медиа-запросы для различных размеров адаптивного макета */
+@media only screen and (min-width: 400px) {
+
+}
+
+@media only screen and (min-width: 700px) {
+
+}
+
+
+@media screen and (max-width: 768px){
+    li{
+        width: 24%;
+        display: inline-block;
+    }
+
+    section{
+        max-width: 700px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 320px){
+    li{
+        width: 100%;
+        display: inline-block;
+        margin: 1px 1px 1px 1px;
+    }
+
+    section{
+        max-width: 700px;
+    }
+    .menu{
+        max-width: 300px;
+    }
+    .video{
+        max-width: 300px;
+    }
+    .grey{
+        max-width: 250px;
+        max-height: 150px;
+    }
+    .logo img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+}
